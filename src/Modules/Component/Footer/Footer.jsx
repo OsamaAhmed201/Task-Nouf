@@ -57,10 +57,10 @@ export default function Footer() {
           <div className="pt-4 border-t border-white/10">
             <h3 className="text-white font-medium mb-4">{t('footer.connect')}</h3>
             <div className="flex gap-6">
-              <Social icon={<Facebook size={16} />} label={t('footer.social.facebook')} />
-              <Social icon={<Instagram size={16} />} label={t('footer.social.instagram')} />
-              <Social icon={<X size={16} />} label={t('footer.social.twitter')} />
-              <Social icon={<Linkedin size={16} />} label={t('footer.social.linkedin')} />
+              <Social icon={<Facebook size={16} />} label={t('footer.social.facebook')} hideLabel />
+              <Social icon={<Instagram size={16} />} label={t('footer.social.instagram')} hideLabel />
+              <Social icon={<X size={16} />} label={t('footer.social.twitter')} hideLabel />
+              <Social icon={<Linkedin size={16} />} label={t('footer.social.linkedin')} hideLabel />
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@ function MobileSection({ title, links }) {
   );
 }
 
-function Social({ icon, label }) {
+function Social({ icon, label, hideLabel }) {
   return (
     <a
       href="#"
@@ -132,7 +132,7 @@ function Social({ icon, label }) {
       title={label}
     >
       {icon}
-      {label && <span>{label}</span>}
+      {!hideLabel && label && <span>{label}</span>}
     </a>
   );
 }

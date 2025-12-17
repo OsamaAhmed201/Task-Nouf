@@ -19,17 +19,17 @@ export default function Features() {
           {t('features_title')}
         </h2>
 
-        <div className="
-          grid
-          grid-cols-2
-          md:grid-cols-2
-          lg:grid-cols-3
-          gap-4 md:gap-6
-          w-full md:w-9/12
-          px-2 md:px-0
-          m-auto
-          cursor-pointer
-        ">
+       <div className="
+  grid
+  grid-cols-1         
+  md:grid-cols-2     
+  lg:grid-cols-3     
+  gap-4 md:gap-6
+  w-full md:w-9/12
+  px-2 md:px-0
+  m-auto
+  cursor-pointer
+">
           {features.map((feature, index) => {
             const Icon = icons[index];
             return (
