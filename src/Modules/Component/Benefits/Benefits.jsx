@@ -1,5 +1,5 @@
 import { ShoppingBag, Zap, Smile, Cable, BarChart3 } from "lucide-react";
-import img1 from "../../../Assets/logoWorks.png";
+import img1 from "../../../assets/logoWorks.png";
 import { useTranslation, Trans } from 'react-i18next';
 
 export default function Benefits() {
