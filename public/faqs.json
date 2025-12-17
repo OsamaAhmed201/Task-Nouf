@@ -1,0 +1,38 @@
+{
+  "en": [
+    {
+      "id": "integration-time",
+      "question": "How quickly can we integrate the voice agent?",
+      "answer": "Yes. Our system provides a lightweight API and SDKs that can be integrated into websites, mobile apps, and e-commerce platforms with minimal development effort"
+    },
+    {
+      "id": "languages",
+      "question": "Is the voice assistant easy to integrate into our existing platform ?",
+      "answer": "Yes. Our system provides a lightweight API and SDKs that can be integrated into websites, mobile apps, and e-commerce platforms with minimal development effort"
+    },
+    {
+      "id": "security",
+      "question": "Is voice data stored or processed securely ...?",
+      "answer": "Yes. Our system provides a lightweight API and SDKs that can be integrated into websites, mobile apps, and e-commerce platforms with minimal development effort"
+    }
+  ],
+  "ar": [
+    {
+      "id": "integration-time-ar",
+      "question": "هل يدعم الحل لغات ولهجات متعددة؟",
+      "answer": "نعم. يوفر نظامنا واجهة برمجة تطبيقات (API) خفيفة وحزم تطوير (SDKs) يمكن دمجها بسهولة في مواقع الويب، التطبيقات المحمولة، ومنصات التجارة الإلكترونية بجهد تطويري ."
+    },
+    {
+      "id": "languages-ar",
+      "question": "هل من السهل دمج المساعد الصوتي في منصتنا الحالية؟",
+      "answer": "نعم. يوفر نظامنا واجهة برمجة تطبيقات (API) خفيفة وحزم تطوير (SDKs) يمكن دمجها بسهولة في مواقع الويب، التطبيقات المحمولة، ومنصات التجارة الإلكترونية بجهد تطويري ."
+    },
+      {
+      "id": "security-ar",
+      "question": "هل تُخزن بيانات الصوت أو تُعالج بأمان؟",
+      "answer": "نعم. يوفر نظامنا واجهة برمجة تطبيقات (API) خفيفة وحزم تطوير (SDKs) يمكن دمجها بسهولة في مواقع الويب، التطبيقات المحمولة، ومنصات التجارة الإلكترونية بجهد تطويري ."
+    }
+
+  ]
+}
+

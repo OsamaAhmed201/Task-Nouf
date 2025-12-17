@@ -1,0 +1,159 @@
+{
+  "header": {
+    "badge": "Voice-First Business-Ready",
+    "title": "Deliver instant AI-powered voice experiences to your customers",
+    "description": "Nouf is an AI Voice Agent that lets your users order, ask, or interact with your service using natural conversation — fully integrated with your platform in minutes.",
+    "button_get_started": "Get Started →",
+    "customers_text": "160,500+ customers in over 120 countries grow their businesses with Haul"
+  },
+  "benefits_title": "Benefits",
+  "benefits": {
+    "conversion": {
+      "title": "Higher <1>Conversion Rates</1>",
+      "desc": "When customers find products faster through voice, they complete purchases more often – boosting your overall sales."
+    },
+    "discovery": {
+      "title": "Faster <1>Product Discovery</1>",
+      "desc": "Nouf helps users reach the right product in seconds, reducing drop-offs caused by long searches or complicated filters."
+    },
+    "experience": {
+      "title": "Better <1>User Experience</1>",
+      "desc": "Voice search makes shopping smoother, more intuitive, more accessible – especially for users who struggle with typing or don't know product names."
+    },
+    "integration": {
+      "title": "Plug-Play <1>Integration</1>",
+      "desc": "Add Nouf to your store with a simple script. No technical setup, no development time – just plug it in and start using it."
+    },
+    "insights": {
+      "title": "Smart <1>Insights</1>",
+      "desc": "Gain valuable data about what users are asking for, popular voice queries, and customer intent – helping you improve products and increase store efficiency."
+    }
+  },
+
+
+  "features_title": "Features & Tech",
+  "features": [
+    {
+      "title": "Plug-and-Play API",
+      "desc": "<1>Integrate Nouf</1> in minutes, no complex setup. Works seamlessly with web and mobile apps instantly."
+    },
+    {
+      "title": "Accurate Speech Recognition",
+      "desc": "<1>Understands</1> Arabic & English clearly for every customer."
+    },
+    {
+      "title": "Intent-Based AI",
+      "desc": "<1>Recognizes</1> what users mean, not just the words they say."
+    },
+    {
+      "title": "Enterprise-Grade Security",
+      "desc": "<1>Protects</1> user data with full encryption and compliance."
+    },
+    {
+      "title": "Easy Customization",
+      "desc": "<1>Integrate Nouf</1> in minutes, no complex setup. Works seamlessly with web and mobile apps instantly."
+    },
+    {
+      "title": "Scalable & Reliable",
+      "desc": "<1>Track</1> interactions, engagement, and conversions easily."
+    }
+  ],
+  "howItWorks_title": "How it Works..?",
+  "steps": [
+    {
+      "number": "1",
+      "title": "Press the Mic",
+      "description": "Simply tap the microphone button to start your voice search instantly."
+    },
+    {
+      "number": "2",
+      "title": "Say What You're Looking For",
+      "description": "Speak naturally – whether it's a product name, category, or description."
+    },
+    {
+      "number": "3",
+      "title": "Nouf Understands",
+      "description": "Nouf instantly understands your request."
+    },
+    {
+      "number": "4",
+      "title": "Get Smart Suggestions",
+      "description": "See the best matching products."
+    },
+    {
+      "number": "5",
+      "title": "Refine with Simple Questions",
+      "description": "Answer a few quick questions if you want to specify color, size, or price."
+    },
+    {
+      "number": "6",
+      "title": "Choose & Buy",
+      "description": "Select the best product and add it to your cart effortlessly."
+    }
+  ],
+
+
+
+  "pricing_title": "Pricing",
+  "pricing_heading": "Free Integration. Pay Only Per Call.",
+  "pricing_description": "We integrate the full voice-agent system for free – no setup fees or contracts.",
+  "pricing_price": "1 SAR per call",
+  "pricing_limit": "Up to 5 minutes per call",
+  "pricing_features": [
+    "AI Voice Automation",
+    "Zero Setup Fees",
+    "Scales With Your Traffic"
+  ],
+  "pricing_button": "Contact Us",
+
+
+
+  "conversation_badge": "Smart Cross-Selling",
+  "conversation_title": "Turn Every Conversation into Extra Sales!",
+  "conversation_description": "Nouri listens to customers, understands their needs, and suggests additional products automatically.",
+"connect": {
+    "titleHTML": "Let's Connect and Bring<br /><span class=\"text-cyan-700\">AI Voice</span><br />to Your Business",
+    "description": "Explore seamless integration opportunities and discover how our enterprise-grade AI voice agents can transform your customer interactions. Let's build the future together.",
+    "form": {
+      "fullName": { "label": "Full Name", "placeholder": "John Smith" },
+      "company": { "label": "Company", "placeholder": "Acme Corporation" },
+      "workEmail": { "label": "Work Email", "placeholder": "john@company.com" },
+      "phoneNumber": { "label": "Phone Number", "placeholder": "+1 (555) 123-4567" },
+      "message": { "label": "Message", "placeholder": "Tell us about your integration needs..." },
+      "button": "Request Integration Demo",
+      "footer": "We'll get back to you within 24 hours."
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "About Nouf",
+      "links": ["Company Overview", "Careers", "Press & Media", "Testimonials"]
+    },
+    "resources": {
+      "title": "Resources",
+      "links": ["Blog", "Help Center", "Webinars & Events", "Case Studies"]
+    },
+    "support": {
+      "title": "Support & Contact",
+      "links": ["Contact Us", "Technical Support", "Feedback", "Community Forum"]
+    },
+    "connect": "Connect",
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "©2025 Nouf · All rights reserved.",
+    "terms": "Term of use",
+    "privacy": "Privacy policy",
+    "security": "Security"
+  },
+   "navbar": {
+    "items": ["Home", "Features", "About", "Platforms", "Testimonials"],
+    "languageToggle": {
+      "en": "EN",
+      "ar": "AR"
+    }
+  }
+}
