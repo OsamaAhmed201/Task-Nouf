@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
 import './Navbar.css';
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import logo from './../../../assets/Nimbus logo.png';
 import { useTranslation } from 'react-i18next';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [activeItem, setActiveItem] = useState('Home');
   const { t, i18n } = useTranslation();
+  const location = useLocation();
+  const [activeItem, setActiveItem] = useState('home');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,7 +20,17 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
- 
+  // تحديث activeItem بناءً على المسار الحالي
+  useEffect(() => {
+    const path = location.pathname.toLowerCase();
+    if (path === '/') setActiveItem('home');
+    else if (path.includes('features')) setActiveItem('features');
+    else if (path.includes('about')) setActiveItem('about');
+    else if (path.includes('platforms')) setActiveItem('platforms');
+    else if (path.includes('testimonials')) setActiveItem('testimonials');
+    else setActiveItem('');
+  }, [location]);
+
   const navItems = [
     { key: "home", label: t('navbar.items.0'), path: "/" },
     { key: "features", label: t('navbar.items.1'), path: "/features" },
@@ -36,13 +47,14 @@ export default function Navbar() {
   return (
     <>
       <nav className="fixed top-0 left-0 w-full z-50 transition-all duration-300">
-
         <div className={`absolute inset-0 ${scrolled ? "bg-black/80 shadow-lg backdrop-blur-md" : "bg-transparent"}`}></div>
 
         <div className="relative mx-auto w-[90%] flex items-center justify-between text-sm text-white py-4 px-6">
 
           <div className='cursor-pointer'>
-            <img src={logo} className='w-20 mt-1' alt="logo" />
+            <NavLink to="/" onClick={() => setActiveItem('home')}>
+              <img src={logo} className='w-20 mt-1' alt="logo" />
+            </NavLink>
           </div>
 
           <div className="hidden md:flex items-center gap-6">
@@ -103,7 +115,6 @@ export default function Navbar() {
   );
 }
 
-// NavItem يدمج NavLink مع التنسيق
 function NavItem({ children, active, onClick, to }) {
   return (
     <NavLink
